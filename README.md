@@ -84,15 +84,15 @@ perpustakaan/
 
 ### 📊 Dashboard
 
-![Dashboard](https://via.placeholder.com/900x500.png?text=Dashboard+Perpustakaan)
+![Dashboard]([https://via.placeholder.com/900x500.png?text=Dashboard+Perpustakaan](https://github.com/kyraara/perpustakaan/blob/main/public/assets/dashboard.png?raw=true))
 
 ### 📖 Manajemen Buku
 
-![Manajemen Buku](https://via.placeholder.com/900x500.png?text=Halaman+Manajemen+Buku)
+![Manajemen Buku]([https://via.placeholder.com/900x500.png?text=Halaman+Manajemen+Buku](https://github.com/kyraara/perpustakaan/blob/main/public/assets/buku.png?raw=true))
 
 ### 🔄 Peminjaman Buku
 
-![Peminjaman Buku](https://via.placeholder.com/900x500.png?text=Form+Peminjaman+Buku)
+![Peminjaman Buku]([https://via.placeholder.com/900x500.png?text=Form+Peminjaman+Buku](https://github.com/kyraara/perpustakaan/blob/main/public/assets/transaksi.png?raw=true))
 
 > Gambar di atas masih **mockup placeholder**. Nanti bisa diganti dengan screenshot asli aplikasi.
 
