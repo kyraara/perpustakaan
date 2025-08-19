@@ -1,44 +1,142 @@
 # 📚 Aplikasi Perpustakaan
 
 Selamat datang di **Perpustakaan App**!  
-Sebuah aplikasi berbasis **Laravel** untuk mengelola data buku, anggota, serta transaksi peminjaman dan pengembalian.  
-Tujuan proyek ini simpel: bikin sistem perpustakaan yang **mudah, cepat, dan elegan**. ✨
+Aplikasi berbasis **Laravel** untuk mengelola data buku, anggota, serta transaksi peminjaman & pengembalian.  
+Didesain buat **sekolah, kampus, maupun komunitas** yang pengen sistem perpustakaannya lebih rapi tanpa ribet.  
 
 ---
 
-## 🚀 Fitur Utama (rencana/roadmap)
-- ✅ Autentikasi (Login & Register)
-- 📖 Manajemen Buku (Tambah, Edit, Hapus, Cari)
-- 👥 Manajemen Anggota
-- 🔄 Transaksi Peminjaman & Pengembalian
-- 📊 Laporan sederhana (riwayat pinjam & status buku)
+## ✨ Fitur Utama
+- 🔐 **Autentikasi** (Login & Register)
+- 📖 **Manajemen Buku**: tambah, edit, hapus, pencarian
+- 👥 **Manajemen Anggota**: daftar anggota & detail
+- 🔄 **Transaksi**: peminjaman & pengembalian
+- 📊 **Laporan**: status buku & riwayat pinjam
+- 🎨 **UI Sederhana & Responsive** (Blade/Laravel Breeze)
+- 🧪 **Testing**: PHPUnit untuk memastikan fitur stabil
 
-> *Catatan:* Fitur masih dalam tahap pengembangan, jadi jangan kaget kalau ada bug yang nongol lebih cepat daripada notifikasi WA mantan. 😅
+> *Note:* Saat ini masih tahap awal. Fitur akan dikembangkan step by step.  
+> Jadi jangan heran kalau kadang masih ada bug numpang lewat. 😅
 
 ---
 
-## 🛠️ Instalasi & Setup
+## 🚀 Instalasi & Setup
 
 1. **Clone repository**
    ```bash
    git clone https://github.com/kyraara/perpustakaan.git
    cd perpustakaan
-2.**Install dependencies**
-composer install
-3.**Copy file environment**
-cp .env.example .env
-4.**Generate key**
-php artisan key:generate
-5.**Setup database**
-```Edit .env sesuai konfigurasi database lokal (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
-``Jalankan migrasi & seeder:
-php artisan migrate --seed
-6.**Jalankan aplikasi**
-php artisan serve
-Akses via browser 👉 http://localhost:8000
+````
+
+2. **Install dependencies**
+
+   ```bash
+   composer install
+   ```
+
+3. **Copy file environment**
+
+   ```bash
+   cp .env.example .env
+   ```
+
+4. **Generate key**
+
+   ```bash
+   php artisan key:generate
+   ```
+
+5. **Setup database**
+
+   * Edit `.env` sesuai konfigurasi database lokal (`DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`).
+   * Jalankan migrasi & seeder:
+
+     ```bash
+     php artisan migrate --seed
+     ```
+
+6. **Jalankan aplikasi**
+
+   ```bash
+   php artisan serve
+   ```
+
+   Akses via browser 👉 [http://localhost:8000](http://localhost:8000)
 
 ---
 
-Mau gue bikinin juga **contoh `CONTRIBUTING.md`** biar repo lu keliatan makin profesional (aturan kontribusi, cara bikin PR, coding style)?
+## 📂 Struktur Proyek
 
+```
+perpustakaan/
+├── app/            # Logic utama aplikasi
+├── routes/         # File routing web & API
+├── database/       # Migration, Seeder, Factory
+├── resources/      # Blade views, CSS, JS
+├── tests/          # Unit & Feature testing
+└── ...
+```
 
+---
+
+## 🖼️ Demo (Mockup)
+
+### Dashboard
+
+![Dashboard](https://via.placeholder.com/900x500.png?text=Dashboard+Perpustakaan)
+
+### Manajemen Buku
+
+![Manajemen Buku](https://via.placeholder.com/900x500.png?text=Halaman+Manajemen+Buku)
+
+### Peminjaman Buku
+
+![Peminjaman Buku](https://via.placeholder.com/900x500.png?text=Form+Peminjaman+Buku)
+
+> Gambar di atas masih **mockup placeholder**. Nanti bisa diganti dengan screenshot asli aplikasi.
+
+---
+
+## 🤝 Kontribusi
+
+1. Fork repo ini
+2. Buat branch fitur baru
+
+   ```bash
+   git checkout -b fitur-baru
+   ```
+3. Commit perubahan
+
+   ```bash
+   git commit -m "Tambah fitur baru"
+   ```
+4. Push branch
+
+   ```bash
+   git push origin fitur-baru
+   ```
+5. Bikin Pull Request 🎉
+
+---
+
+## 📜 License
+
+Proyek ini berlisensi [MIT](LICENSE).
+Silakan gunakan, modifikasi, atau kembangkan sesuai kebutuhan.
+
+---
+
+## 💡 Catatan Penutup
+
+Aplikasi ini masih **versi awal**, tapi tujuan akhirnya adalah:
+Bikin sistem perpustakaan yang **simple, powerful, dan bisa dipakai di mana aja**.
+
+Kalau menurut lo bermanfaat, kasih ⭐ di repo ini.
+Biar repo ini nggak jadi kayak buku ensiklopedia—ada tapi jarang dibaca. 😎📖✨
+
+```
+
+---
+
+Mau gue bikinin sekalian **`CONTRIBUTING.md`** biar repo lu lebih pro dan ramah buat contributor lain juga?
+```
