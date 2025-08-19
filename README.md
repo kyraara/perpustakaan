@@ -1,32 +1,33 @@
 # 📚 Aplikasi Perpustakaan
 
-Selamat datang di **Perpustakaan App**!  
-Aplikasi berbasis **Laravel** untuk mengelola data buku, anggota, serta transaksi peminjaman & pengembalian.  
-Didesain buat **sekolah, kampus, maupun komunitas** yang pengen sistem perpustakaannya lebih rapi tanpa ribet.  
+Selamat datang di **Perpustakaan App**!
+Aplikasi berbasis **Laravel** untuk mengelola data buku, anggota, serta transaksi peminjaman & pengembalian.
+Didesain untuk **sekolah, kampus, maupun komunitas** yang ingin sistem perpustakaannya rapi tanpa ribet.
 
 ---
 
 ## ✨ Fitur Utama
-- 🔐 **Autentikasi** (Login & Register)
-- 📖 **Manajemen Buku**: tambah, edit, hapus, pencarian
-- 👥 **Manajemen Anggota**: daftar anggota & detail
-- 🔄 **Transaksi**: peminjaman & pengembalian
-- 📊 **Laporan**: status buku & riwayat pinjam
-- 🎨 **UI Sederhana & Responsive** (Blade/Laravel Breeze)
-- 🧪 **Testing**: PHPUnit untuk memastikan fitur stabil
 
-> *Note:* Saat ini masih tahap awal. Fitur akan dikembangkan step by step.  
-> Jadi jangan heran kalau kadang masih ada bug numpang lewat. 😅
+* 🔐 **Autentikasi** (Login & Register)
+* 📖 **Manajemen Buku**: tambah, edit, hapus, pencarian
+* 👥 **Manajemen Anggota**: daftar anggota & detail
+* 🔄 **Transaksi**: peminjaman & pengembalian
+* 📊 **Laporan**: status buku & riwayat pinjam
+* 🎨 **UI Sederhana & Responsif** (Blade/Laravel Breeze)
+* 🧪 **Testing**: PHPUnit untuk memastikan fitur stabil
+
+> ⚠️ *Catatan:* Saat ini masih tahap awal. Jadi jangan heran kalau kadang ada bug numpang lewat. 😅
 
 ---
 
 ## 🚀 Instalasi & Setup
 
 1. **Clone repository**
+
    ```bash
    git clone https://github.com/kyraara/perpustakaan.git
    cd perpustakaan
-````
+   ```
 
 2. **Install dependencies**
 
@@ -81,15 +82,15 @@ perpustakaan/
 
 ## 🖼️ Demo (Mockup)
 
-### Dashboard
+### 📊 Dashboard
 
 ![Dashboard](https://via.placeholder.com/900x500.png?text=Dashboard+Perpustakaan)
 
-### Manajemen Buku
+### 📖 Manajemen Buku
 
 ![Manajemen Buku](https://via.placeholder.com/900x500.png?text=Halaman+Manajemen+Buku)
 
-### Peminjaman Buku
+### 🔄 Peminjaman Buku
 
 ![Peminjaman Buku](https://via.placeholder.com/900x500.png?text=Form+Peminjaman+Buku)
 
@@ -128,15 +129,8 @@ Silakan gunakan, modifikasi, atau kembangkan sesuai kebutuhan.
 
 ## 💡 Catatan Penutup
 
-Aplikasi ini masih **versi awal**, tapi tujuan akhirnya adalah:
+Aplikasi ini masih **versi awal**, tapi tujuannya jelas:
 Bikin sistem perpustakaan yang **simple, powerful, dan bisa dipakai di mana aja**.
 
 Kalau menurut lo bermanfaat, kasih ⭐ di repo ini.
 Biar repo ini nggak jadi kayak buku ensiklopedia—ada tapi jarang dibaca. 😎📖✨
-
-```
-
----
-
-Mau gue bikinin sekalian **`CONTRIBUTING.md`** biar repo lu lebih pro dan ramah buat contributor lain juga?
-```
