@@ -98,35 +98,6 @@ perpustakaan/
 
 ---
 
-## 🤝 Kontribusi
-
-1. Fork repo ini
-2. Buat branch fitur baru
-
-   ```bash
-   git checkout -b fitur-baru
-   ```
-3. Commit perubahan
-
-   ```bash
-   git commit -m "Tambah fitur baru"
-   ```
-4. Push branch
-
-   ```bash
-   git push origin fitur-baru
-   ```
-5. Bikin Pull Request 🎉
-
----
-
-## 📜 License
-
-Proyek ini berlisensi [MIT](LICENSE).
-Silakan gunakan, modifikasi, atau kembangkan sesuai kebutuhan.
-
----
-
 ## 💡 Catatan Penutup
 
 Aplikasi ini masih **versi awal**, tapi tujuannya jelas:
